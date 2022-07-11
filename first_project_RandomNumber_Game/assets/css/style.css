@@ -1,0 +1,44 @@
+/* обнуление */
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html, body{
+    height: 100%;
+    line-height: 1;
+}
+/* ///////////////////////////////////////////////////////// */
+/* wrapepr */
+.wrapper{
+    max-width: 1800px;
+    margin: 0 auto;
+}
+.knopka{
+    background-color: rgba(33, 123, 121, 0.8);
+    border-radius: 7px;
+    margin-top: 25px;
+    margin-left: 175px;
+    width: 120px;
+    height: 25px;
+}
+.knopka:hover{
+    background-color: rgba(35, 187, 184, 0.8);
+}
