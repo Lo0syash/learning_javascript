@@ -9,7 +9,6 @@ var real = document.querySelector('.real');
 var check = 1;
 var resetButton = document.querySelector('.resetButton');
 var random = Math.floor(Math.random()*100)+1;
-console.log(random);
 
 function checkNum(){
   var userGuesses = Number(guessField.value);
